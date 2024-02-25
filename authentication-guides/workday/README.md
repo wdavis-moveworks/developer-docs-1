@@ -160,14 +160,16 @@ We will use Postman to run these queries.
     ```
     
 2. Import this request into Postman by clicking `file` -> `import`.
+
     ![Alt text](images/image.png)
 
 3. Notice that the url and properties are filled in automatically. Execute by clicking `send`
+
     ![Alt text](images/image-1.png)
     
 4. If the execution is successful, yous hould see the an access_token in the response.
 
-![Alt text](images/image-2.png)
+    ![Alt text](images/image-2.png)
     
 Copy the access_token string for the next step, note that some of the access_token is blurred out in the screenshot for security purposes!
 
@@ -213,7 +215,7 @@ Since we are going to be running a query to test, we can start the connector cre
 
 1. Let's start by going into the Queries workspace and creating a new query. You can follow the steps for creating a new query [here](https://developer.moveworks.com/creator-studio/quickstart/queries/) only instead of choosing an existing connector, choose to create a new one.
 
-![Create a new connector](images/2024-01-05_21-49-22.png)
+    ![Create a new connector](images/2024-01-05_21-49-22.png)
 
 2. In your API editor, create a new connector. You can read more about the supported auth types on [our connector reference](https://developer.moveworks.com/creator-studio/connector-configuration/). 
 Fill in the following for the connection information while replacing YOUR_CLIENT_ID, YOUR_CLIENT_SECRET, YOUR_REFRESH_TOKEN and YOUR_TENANT_NAME with the values from the above steps where you set up the Workday connection.
@@ -242,11 +244,11 @@ Request body: `{
 Headers: `Content-Type` : `application/json`
 Query parameters: `limit` : `5`
 
-![Untitled](images/2024-01-06_06-52-59-1.png)
+    ![Untitled](images/2024-01-06_06-52-59-1.png)
 
-![Untitled](images/2024-01-06_06-53-17.png)
+    ![Untitled](images/2024-01-06_06-53-17.png)
 
-![Untitled](images/2024-01-05_21-49-22.png)
+    ![Untitled](images/2024-01-05_21-49-22.png)
 
 
 
